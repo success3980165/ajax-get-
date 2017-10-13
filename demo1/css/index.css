@@ -1,0 +1,144 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration:none;
+  color: black;
+  display: inline-block;
+  float: left;
+}
+@media all and (orientation : landscape) {
+    #app {
+    width: 100%;
+  }
+  .list {
+    margin:0px auto;
+    width: 100%;
+    margin: 0px 20px 0px 20px;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .list li {
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:2px solid #999999;
+  }
+  .list li a {
+    text-decoration:none;
+    color: black;
+    width: 97%;
+  }
+  h3 {
+    text-align: center;
+  } 
+  .answer {
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .btn {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .search {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .txt {
+    width: 70%;
+    height: 20px;
+    border: 1px solid black;
+    outline:none;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .btn1 {
+    width: 45px;
+    height: 22px;
+    background: #49a9ee;
+    outline:none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+  .arrow-right {
+    width:0; 
+    height:0; 
+    border-top:5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid gray;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+}
+@media all and (orientation : portrait){
+  #app {
+    width: 100%;
+  }
+  .list {
+    margin:0px auto;
+    // width: 100%;
+    // margin: 0px 20px 0px 20px;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .list li {
+    width: 90%;
+    height: 30px;
+    line-height: 24px;
+    border-bottom:2px solid #999999;
+    display: inline-table;
+  }
+  .list li a {
+    text-decoration:none;
+    color: black;
+    width: 91%;
+  }
+  h3 {
+    text-align: center;
+  } 
+  .answer {
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .btn {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .search {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .txt {
+    width: 70%;
+    height: 20px;
+    border: 1px solid black;
+    outline:none;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .btn1 {
+    width: 45px;
+    height: 22px;
+    background: #49a9ee;
+    outline:none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+  .arrow-right {
+    width:0; 
+    height:0; 
+    border-top:5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid gray;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+}  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no,maximum-scale=1.0">
+
+  <link rel="stylesheet" href="css/index.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/vue-2.1.8.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="search">
+      <input type="text" placeholder="搜索你的问题" class="txt" v-model="val">
+      <input type="button" value="查询" class="btn1" @click="getList(val)">
+    </div>
+    <ul class="list">
+      <li v-for="item in listData"><a :href="item.hrefVal">{{item.question}}</a><div class="arrow-right"></div></li>
+    </ul>
+
+  </div>
+
+  <script type="text/javascript" src="js/mainvue.js"></script>
+</body>
+</html>
